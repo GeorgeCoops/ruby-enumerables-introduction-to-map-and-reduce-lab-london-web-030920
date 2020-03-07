@@ -46,7 +46,7 @@ if starting_point
     total = starting_point
     counter = 0
   else
-    total = array[0]
+    total = source_array[0]
     counter = 0
   end
 
