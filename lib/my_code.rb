@@ -42,7 +42,7 @@ new_array
 end
 
 def reduce_to_total(source_array, starting_point=nil)
-if sv
+if starting_point
     total = starting_point
     counter = 0
   else
