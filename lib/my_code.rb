@@ -41,21 +41,21 @@ counter = 0
 new_array
 end
 
-def reduce_to_total(source_array, starting_point=nil)
-if starting_point
-    total = starting_point
+def reduce_to_total(source_array, sv=nil)
+if sv
+    num1 = starting_point
     counter = 0
   else
-    total = source_array[0]
-    counter = 0
+    num1 = source_array[0]
+    counter = 1
   end
 
     while counter < source_array.length
-    total += source_array[counter]
+    num1 += source_array[counter]
     counter += 1
     end
 #  binding.pry
-total
+num1
 end
 
 def reduce_to_all_true(source_array)
